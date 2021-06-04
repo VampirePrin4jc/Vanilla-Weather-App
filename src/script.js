@@ -38,8 +38,8 @@ function formatDate(timestamp) {
   }
 
   let apiKey = "130fc3ff2adf86f79a6e1256b53c2b07";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Austin&appid=${apiKey}&units=metric`;
+  let city = "Wylie";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-  console.log(apiUrl);
   axios.get(apiUrl).then(displayTemperature);
 }
