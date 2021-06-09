@@ -1,9 +1,9 @@
 body {
   font-family: arial, sans-serif;
+  background-color: #6e3f98;
 }
 
 h1 {
-  color: #878787;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -19,8 +19,6 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
-  color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -39,6 +37,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-color: #8b65ad;
 }
 
 .overview {
@@ -71,4 +70,26 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  background-color: #8057a3;
+}
+
+.btn {
+  background-color: blueviolet;
+}
+
+.form-control {
+  background-color: rgb(196, 196, 223);
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
