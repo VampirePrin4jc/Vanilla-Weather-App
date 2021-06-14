@@ -1,6 +1,7 @@
 body {
   font-family: arial, sans-serif;
-  background-color: #6e3f98;
+  background-image: url(https://ak2.picdn.net/shutterstock/videos/1007089402/thumb/2.jpg);
+  background-size: 3000px;
 }
 
 h1 {
@@ -92,4 +93,8 @@ li:first-letter {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+.small {
+  color: #a68fb9;
 }
